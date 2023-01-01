@@ -19,3 +19,5 @@ while True:
     socket_comunicacion.send("Tengo tu mensaje, gracias !".encode("utf-8"))
     socket_comunicacion.close() #Cerramos comunicacion
     print("Cerrando comunicacion")
+    server.close()
+    break

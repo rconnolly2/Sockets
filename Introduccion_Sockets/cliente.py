@@ -12,3 +12,5 @@ cliente_socket.send("Hola mundo !".encode("utf-8"))
 mensaje_recibido = cliente_socket.recv(1024)
 
 print("El mensaje recibido por cliente es: " + mensaje_recibido.decode("utf-8"))
+
+exit()
