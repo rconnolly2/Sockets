@@ -38,7 +38,7 @@ def Enviar(client):
 
 def Recibir(client):
     while True:
-        print("El: " + rsa.decrypt(client.recv(1024), mi_key_priv).decode("utf-8"))
+        print("El con IP:puerto: " + str(client.getpeername()) +  rsa.decrypt(client.recv(1024), mi_key_priv).decode("utf-8"))
 
 
 hilo1 = threading.Thread(target=Enviar, args=(cliente,))
