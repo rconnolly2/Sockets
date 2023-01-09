@@ -1,16 +1,1 @@
-import socket
-
-# Create the socket
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-# Set the IP address and port number to bind the socket to
-server_address = ('192.168.1.101', 10000)
-sock.bind(server_address)
-
-# Receive messages
-while True:
-    data, address = sock.recvfrom(4096)
-    print(f'Received message from {address}:' + data.decode("utf-8"))
-
-# Close the socket
-sock.close()
+self.socket_cliente.bind(server_address)
