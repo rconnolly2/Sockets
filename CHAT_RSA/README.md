@@ -32,7 +32,7 @@ Ahora pon la IP del ordenador anterior en tu red local:
   Dame la IP de la maquina que te quieres conectar dentro de tu red: EJ: 192.168.1.101
 ```
 ## 💻Requisitos
-Este programa solo necesita instalar un libreria ya que las librerias para crear hilos y enviar paquetes ya estan incluidas por defecto con python.
+Este programa solo necesita instalar una libreria ya que las librerias para crear hilos y enviar paquetes ya estan incluidas por defecto con python.
 Una vez que tengas la ventana de terminal abierta y instalado pip, escribe el 
 siguiente comando para instalar RSA:
 
